@@ -1,7 +1,10 @@
 <div class='row'>
     <h2>Educación</h2>
-    <h3>Escuela N° 21 D.E. N° 3 Carlos Pellegrini.</h3>
-    <h3>Escuela Técnica Otto Krause.
+   <li *ngFor="let educacion of educacionList">
+    <h3>{{educacion.school}}</h3>
+   </li>
+   
+   
+   
     <img src="https://www.ottokrause.edu.ar/wp-content/uploads/2021/02/orig-marca-otto-krause-1.svg" alt="" decoding="async" loading="lazy" width="100px">
-    </h3>
-</div>
+   </div>
