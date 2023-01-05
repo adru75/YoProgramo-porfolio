@@ -1,10 +1,9 @@
 <div class='row'>
     <h2>Educación</h2>
-   <li *ngFor="let educacion of educacionList">
-    <h3>{{educacion.school}}</h3>
+    <h3>
+    <li *ngFor="let educacion of educacionList">
+    {{educacion.school}}
+    <img [src]="educacion.img" width="150px">
    </li>
-   
-   
-   
-    <img src="https://www.ottokrause.edu.ar/wp-content/uploads/2021/02/orig-marca-otto-krause-1.svg" alt="" decoding="async" loading="lazy" width="100px">
-   </div>
+</h3>
+</div>
